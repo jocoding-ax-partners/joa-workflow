@@ -287,7 +287,7 @@ function goalRepo(files) {
   return root;
 }
 
-const GOOD = `# 백오피스 Goal1\n\n방법론 정본은 joa 플러그인의 WORKFLOW.md 다. 여기는 델타만 적는다.\n\n목표:\n채점 대시보드가 뜬다.\n\n멈춤 조건:\n30턴.\n`;
+const GOOD = `# 예시 골\n\n방법론 정본은 joa 플러그인의 WORKFLOW.md 다. 여기는 델타만 적는다.\n\n목표:\n목록 화면이 뜬다.\n\n멈춤 조건:\n30턴.\n`;
 
 test("정본을 참조하고 재서술하지 않으면 통과", () => {
   const root = goalRepo({ "backoffice-loop.md": GOOD });
