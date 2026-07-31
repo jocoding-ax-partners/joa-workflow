@@ -9,7 +9,7 @@
 ## 설치
 
 ```
-/plugin marketplace add jocoding-ax-partners/joa
+/plugin marketplace add jocoding-ax-partners/joa-workflow
 /plugin install joa@joa
 ```
 
