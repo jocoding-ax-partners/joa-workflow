@@ -1,0 +1,11 @@
+{
+  "name": "joa",
+  "version": "0.1.0",
+  "description": "기획 → 와이어프레임 → 프론트+mock → 계약동결·병렬플랜·정합검토 → 사용자 이해 → 루프 구현. 5단계 게이트를 스크립트가 강제하는 순차 워크플로.",
+  "author": { "name": "조코딩AX 파트너스", "url": "https://github.com/jocoding-ax-partners" },
+  "homepage": "https://github.com/jocoding-ax-partners/joa",
+  "repository": "https://github.com/jocoding-ax-partners/joa",
+  "license": "MIT",
+  "keywords": ["workflow", "planning", "tdd", "verification", "subagent"],
+  "skills": "./skills/"
+}

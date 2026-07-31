@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "joa",
+  "description": "기능 하나를 기획부터 루프 구현까지 순서대로 밀어붙이는 워크플로 스킬셋.",
+  "owner": { "name": "조코딩AX 파트너스", "url": "https://github.com/jocoding-ax-partners" },
+  "plugins": [
+    {
+      "name": "joa",
+      "description": "5단계 게이트 워크플로(spec → front → plan → teach → loop). 게이트 판정은 스크립트가 하고, 스킬은 순서만 서술한다.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
